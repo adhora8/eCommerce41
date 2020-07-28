@@ -1,14 +1,16 @@
-package com.example.ecommerce;
+package com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class shawly extends AppCompatActivity {
+import com.example.ecommerce.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shawly);
+        setContentView(R.layout.activity_login);
     }
 }
